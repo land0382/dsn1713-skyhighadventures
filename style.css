@@ -44,10 +44,8 @@ body {
 .navbar-nav .nav-link {
     font-size: 1.2rem;
     padding: 15px 20px; 
-    color: white; 
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     .navbar-nav {
         display: none; 
@@ -218,7 +216,6 @@ li {
     text-align: left; 
 }
 
-
 .content-box {
     border-radius: 8px; 
     padding: 40px 20px; 
@@ -235,16 +232,16 @@ li {
 
 .content-box h3,
 .content-box p {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .content-box h3 {
-    padding-bottom: 15px; /* Space below the heading */
+    padding-bottom: 15px; 
     color: #A2C6EC;
 }
 
 .content-box p {
-    padding: 10px 0; /* Space around the paragraph */
+    padding: 10px 0; 
 }
 
 .reviews-section {
@@ -260,12 +257,12 @@ li {
 }
 
 .text-container {
-    display: flex;                /* Use flexbox */
-    justify-content: flex-end;    /* Align children to the right */
-    align-items: flex-start;      /* Align items to the start vertically */
-    text-align: left;             /* Keep text left-aligned */
-    width: 100%;                  /* Full width of the parent */
-    padding-right: 20px;          /* Add some padding to the right if needed */
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    text-align: left; 
+    width: 100%; 
+    padding-right: 20px; 
 }
 
 .image-box {
@@ -276,13 +273,13 @@ li {
 }
 
 .image-container {
-    background-color: #A2C6EC; /* Light background for the images */
+    background-color: #A2C6EC; 
     border-radius: 8px; 
     padding: 20px; 
     margin: 10px; 
     text-align: center; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    flex: 1 1 calc(45% - 20px); /* Two images per row */
+    flex: 1 1 calc(45% - 20px); 
 }
 
 .image-box-img {
@@ -297,7 +294,6 @@ li {
     color: black; 
 }
 
-
 .review-box {
     background-color: #ffffff; 
     color: black; 
@@ -305,13 +301,12 @@ li {
     padding: 20px; 
     margin: 10px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    flex: 1 1 calc(30% - 20px);   /* Adjust to allow three per row with some margin */
-    height: 300px;                /* Fixed height to make it more square-like */
-    display: flex;                /* Enable flex on review box */
-    flex-direction: column;       /* Allow for vertical stacking */
-    justify-content: space-between; /* Space out content */
+    flex: 1 1 calc(30% - 20px);   
+    height: 300px;                
+    display: flex;                
+    flex-direction: column;       
+    justify-content: space-between; 
 }
-
 
 .review-header {
     display: flex; 
